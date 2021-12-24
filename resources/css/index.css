@@ -1,0 +1,68 @@
+/* Montserrat Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+/* Body */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Navbar Styling */
+#navbar-icon {
+  height: 9px;
+  width: 27px;
+  background: linear-gradient(90deg, #E537B9, #C040DF);
+  border-radius: 4.5px;
+}
+
+
+/* Accordion */
+.accordion-button-m {
+  border: 0;
+  font-weight: 700;
+  width: 100%;
+  background: #fff;
+  color: #737373;
+  text-align: left !important;
+}
+
+
+/* Carousel */
+.carousel-control {
+  background: #F6F8FA;
+  width: 20px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  border: 0;
+
+  color: #737373;
+  font-weight: 900;
+}
+.carousel-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-image:hover {
+  filter: brightness(0.5);
+}
+
+
+/* Card */
+.card {
+  cursor: pointer;
+}
+
+
+/* Dot */
+#dot {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background: #6c757d;
+}
